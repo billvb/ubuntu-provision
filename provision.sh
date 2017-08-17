@@ -37,13 +37,13 @@ function install_python36 {
   echo "Installing Python 3.6"
   sudo add-apt-repository ppa:jonathonf/python-3.6
   sudo apt-get update
-  sudo apt-get install python3.6
+  sudo apt-get -y install python3.6
 }
 
 
 sudo apt-get update
 sudo apt-get upgrade
 
-sudo apt-get install vim ack build-essential git
+sudo apt-get -y install vim ack build-essential git
 install_python36
-sudo apt-get install virtualenv virtualenvwrapper python3-pip
+sudo apt-get -y install virtualenv virtualenvwrapper python3-pip
