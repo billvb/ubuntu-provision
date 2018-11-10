@@ -33,9 +33,4 @@ function install_vim_pathogen {
   echo "colorscheme solarized" >> ~/.vimrc
 }
 
-sudo apt-get update
-sudo apt-get upgrade
-
-sudo apt-get -y install vim ack build-essential git
-sudo apt-get -y install virtualenv virtualenvwrapper python3-pip
 install_vim_pathogen
