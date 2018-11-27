@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 function install_vim_pathogen {
   echo "Installing vim pathogen"
   
